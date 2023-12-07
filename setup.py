@@ -19,22 +19,22 @@ setup(
     'audio generation'
   ],
   install_requires=[
-    'accelerate',
-    'beartype',
-    'einops>=0.6.1',
+    'accelerate>=0.24.0',
+    'beartype>=0.16.1',
+    'einops>=0.7.0',
     'ema-pytorch>=0.2.2',
     'encodec',
     'fairseq',
+    'gateloop-transformer>=0.0.24',
     'joblib',
-    'lion-pytorch',
-    'local-attention>=1.8.4',
+    'local-attention>=1.9.0',
     'scikit-learn',
     'sentencepiece',
     'torch>=1.12',
     'torchaudio',
     'transformers',
     'tqdm',
-    'vector-quantize-pytorch>=1.5.14'
+    'vector-quantize-pytorch>=1.11.8'
   ],
   classifiers=[
     'Development Status :: 4 - Beta',
